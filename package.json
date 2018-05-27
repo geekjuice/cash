@@ -1,0 +1,43 @@
+{
+  "name": "@geekjuice/cash",
+  "version": "0.0.0",
+  "description": "ephemeral local cache",
+  "repository": "geekjuice/cash",
+  "author": {
+    "name": "nicholas hwang",
+    "email": "hello@undefined.engineer",
+    "url": "https://undefined.engineer"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-unicorn": "^12.0.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "eslint": "eslint",
+    "jest": "jest",
+    "prettier": "prettier",
+    "tsc": "tsc"
+  }
+}
