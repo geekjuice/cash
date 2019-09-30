@@ -17,6 +17,14 @@
   "files": [
     "lib/**/*.js"
   ],
+  "keywords": [
+    "geekjuice",
+    "cache",
+    "ephemeral",
+    "filesystem",
+    "local",
+    "temporary"
+  ],
   "dependencies": {
     "debug": "^4.1.1"
   },
